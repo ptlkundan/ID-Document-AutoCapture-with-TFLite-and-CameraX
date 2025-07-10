@@ -1,4 +1,4 @@
-package com.surendramaran.yolov8tflite
+package com.ptlkundan.docautocapture
 
 import android.Manifest
 import android.content.ContentValues
@@ -24,9 +24,9 @@ import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import com.surendramaran.yolov8tflite.Constants.LABELS_PATH
-import com.surendramaran.yolov8tflite.Constants.MODEL_PATH
-import com.surendramaran.yolov8tflite.databinding.ActivityMainBinding
+import com.ptlkundan.docautocapture.Constants.LABELS_PATH
+import com.ptlkundan.docautocapture.Constants.MODEL_PATH
+import com.ptlkundan.docautocapture.databinding.ActivityMainBinding
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

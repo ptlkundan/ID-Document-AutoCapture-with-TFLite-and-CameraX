@@ -1,6 +1,6 @@
 // Step 1: Define and integrate Quadrilateral class
 // File: Quadrilateral.kt
-package com.surendramaran.yolov8tflite
+package com.ptlkundan.docautocapture
 
 import android.graphics.Matrix
 import android.graphics.Point

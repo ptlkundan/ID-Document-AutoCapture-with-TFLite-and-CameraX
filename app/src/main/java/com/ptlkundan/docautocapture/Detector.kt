@@ -1,4 +1,4 @@
-package com.surendramaran.yolov8tflite
+package com.ptlkundan.docautocapture
 
 import android.content.Context
 import android.graphics.Bitmap

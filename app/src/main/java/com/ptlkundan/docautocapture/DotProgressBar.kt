@@ -1,4 +1,4 @@
-package com.surendramaran.yolov8tflite
+package com.ptlkundan.docautocapture
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator

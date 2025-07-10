@@ -4,12 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.surendramaran.yolov8tflite"
+    namespace = "com.ptlkundan.docautocapture"
     compileSdk = 34
 
     defaultConfig {
-//        applicationId = "com.surendramaran.yolov8tflite"
-        applicationId = "com.dtt.idcardautocapture"
+        applicationId = "com.ptlkundan.docautocapture"
         minSdk = 26
         targetSdk = 34
         versionCode = 2

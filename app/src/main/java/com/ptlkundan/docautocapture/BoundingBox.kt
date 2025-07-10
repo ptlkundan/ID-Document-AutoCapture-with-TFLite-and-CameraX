@@ -1,4 +1,4 @@
-package com.surendramaran.yolov8tflite
+package com.ptlkundan.docautocapture
 
 data class BoundingBox(
     val x1: Float,
