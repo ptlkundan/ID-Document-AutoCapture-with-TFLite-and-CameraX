@@ -1,25 +1,29 @@
-<<<<<<< HEAD
-## YOLOv8 Live Object Detection Android Application
+# ID-Document AutoCapture with TFLite and CameraX
 
-### Notice
-This project has been moved to a new repository. You can find the latest version and updates [here](https://github.com/surendramaran/YOLO).
-
-### Description
-This Android application is designed to perform live object detection using the YOLOv8 machine learning model. YOLOv8 (You Only Look Once version 8) is known for its real-time object detection capabilities, and this app brings that functionality to Android devices.
-
-### Getting Started
-To use this repository for any custom YOLOv8 Object detection model, follow these steps:
-1. Clone this repository to your local machine using `git clone https://github.com/surendramaran/YOLOv8-TfLite-Object-Detector`.
-2. Put your .tflite model and .txt label file inside the assets folder
-3. Rename paths of your model and labels file in Constants.kt file
-4. **Build and Run:**
-
-### Contributing
-Contributions are welcome! If you want to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
-
-### Contact
-For any questions or feedback, feel free to contact [surendramaran8@gmail.com] or open an [issue](https://github.com/surendramaran/YOLOv8-TfLite-Object-Detector/issues/new) in the repository.
-=======
-# ID-Document-AutoCapture-with-TFLite-and-CameraX
 An Android application that automatically detects and captures ID or document cards in real-time using a TensorFlow Lite (TFLite) object detection model and CameraX. The app ensures stable, non-blurry captures with smart auto-capture logic, leveraging AI to streamline document scanning without manual input.
->>>>>>> 8073d6e153a69b3704b0cf22ab7ea905eacb0a89
+
+## Features
+- 📸 Real-time ID/document detection using TFLite
+- 🤖 Auto-capture when the card is stable and clear
+- 🌀 Blur detection to avoid capturing unclear images
+- 🎯 Bounding box overlay with stability progress
+- ⚡ Optimized for speed with CameraX and GPU support
+
+## Tech Stack
+- Kotlin
+- CameraX
+- TensorFlow Lite (YOLOv8 / Custom model)
+- Android Jetpack Libraries
+
+## Getting Started
+1. Clone the repository  
+2. Add your `.tflite` model and `labels.txt` inside `assets/`  
+3. Update the paths in `Constants.kt`  
+4. Build and run the app on a real device
+
+## Developer Info
+**Kundan Patil**  
+📧 ptlkundan@gmail.com  
+📱 +91 8668344573
+
+---
